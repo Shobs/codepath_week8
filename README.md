@@ -23,7 +23,9 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
+
+![](gif/username_enumeration.gif)
 
 Vulnerability #2: __________________
 
