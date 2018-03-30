@@ -20,8 +20,9 @@ Vulnerability #1: SQL Injection
 
 ![](gif/SQLI.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
 
+![](gif/session_hijacking_fixation.gif)
 
 ## Green
 
@@ -40,8 +41,9 @@ Vulnerability #1: IDOR
 ![](gif/IDOR.gif)
 
 
-Vulnerability #2: __________________
+Vulnerability #2: CSRF
 
+![](gif/CSRF.gif)
 
 ## Notes
 
@@ -59,6 +61,11 @@ I tried all the forms to no avail, although sometimes I would get a blank page w
 XSS:
 That one was straight forward, it felt intuitive that the best place to inject was in the contact form.  Although I did encounter the error from above again.  It seems that when quickly and consecutively doing the same action on the 3 different sites, the third request will fail.
 
+CSRF:
+2 vulnerability left and 2 sites simplifies the task quite a bit.
+
+
+Session Hijacking/Fixation:
 
 
 
