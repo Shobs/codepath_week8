@@ -16,7 +16,9 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection
+
+![](gif/SQLI.gif)
 
 Vulnerability #2: __________________
 
@@ -32,12 +34,21 @@ Vulnerability #2: __________________
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: IDOR
+
+![](gif/IDOR.gif)
+
 
 Vulnerability #2: __________________
 
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Username Enumeration:
+It took me a long while to find the failed/failure change of class in the DOM.  I was looking for a message of sorts instead of such a subtle change.  I also wasn't sure which form I was supposed to look at.
+
+IDOR:
+That one was a bit more straight forward once I got into the swing of things, I was pretty sure that it had to do with user ids.
+
+
 
