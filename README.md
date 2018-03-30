@@ -29,8 +29,9 @@ Vulnerability #1: Username Enumeration
 
 ![](gif/username_enumeration.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: XSS
 
+![](gif/XSS.gif)
 
 ## Red
 
@@ -49,6 +50,15 @@ It took me a long while to find the failed/failure change of class in the DOM.  
 
 IDOR:
 That one was a bit more straight forward once I got into the swing of things, I was pretty sure that it had to do with user ids.
+
+SQLI:
+I tried all the forms to no avail, although sometimes I would get a blank page with a bad request notification giving me a false positive on the blue and green site.  I figured it was a bug since I couldn't reliably reproduce the error.
+
+![](png/error.png)
+
+XSS:
+That one was straight forward, it felt intuitive that the best place to inject was in the contact form.  Although I did encounter the error from above again.  It seems that when quickly and consecutively doing the same action on the 3 different sites, the third request will fail.
+
 
 
 
