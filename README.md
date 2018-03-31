@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **11** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -139,6 +139,9 @@ Table: users
 | 2  | lbt2000@nowhere.com | lbtables  | Tables    | 2016-06-03 19:33:54 | Bobby      | $2y$10$I.Jwfc8R3xaFwlAlPn5U3OLAQXrE0c2fakN8rR4j2TW0gRVMd6U6a |
 | 3  | person@nowhere.com  | pperson   | Person    | 2017-01-01 02:50:26 | Pat        | $2y$11$FHZQn1eWZ3mbn11evb3CSeM20LCsJZI8yP9wS/UsOI6VWnx.7mKDa |
 | 4  | auser@test.com      | auser     | test      | 2018-03-30 04:19:48 | lets       | $2y$11$jHNjgSVYcC0QY.fn.0UhiOrjW./lYgHkvWhxjV6.Vi2tUBk23lAwS |
+
+
+It seems that the database is using bcrypt encryption.
 
 
 
